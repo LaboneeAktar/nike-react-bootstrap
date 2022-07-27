@@ -8,9 +8,24 @@ header {
 
 h1 {
     font-family: 'Bebas Neue', cursive;
+}
+
+h4 {
+    font-family: 'Lobster', cursive;
+}
+
+.title {
     font-size: 60px;
 }
 
-/* h1 {
-    font-family: 'Lobster', cursive;
-} */
+.bg-color {
+    background-color: rgb(219, 211, 211);
+}
+
+
+@media only screen and (max-width: 768px) and (min-width: 350px) {
+    .small-device {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}
